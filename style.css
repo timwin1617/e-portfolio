@@ -31,8 +31,10 @@ a {
     transition: opacity 300ms ease;
 }
 
-a:hover {
-    opacity: 0.6;
+
+i:hover {
+    opacity: 0.5;
+    transition: opacity 300ms ease;
 }
 
 .link__hover-effect::after {
@@ -283,7 +285,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 16px;
+    padding: 20px 16px;
 }
 
 .language__list {
@@ -389,7 +391,7 @@ nav {
 .project__description--para,
 .project__description--links,
 .project__description--link {
-    text-align: left;
+    text-align: center;
     color: #fff;
 }
  
